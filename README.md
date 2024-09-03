@@ -21,7 +21,7 @@ The application features a user-friendly graphical interface (GUI) and utilizes 
 1. **Clone the Repository**
 
    ```bash
-   git cloneh https://github.com/chauhansachin13/Three-in-One-Game-Suite.git
+   git clone https://github.com/chauhansachin13/Three-in-One-Game-Suite.git
    ```
 
 2. **Navigate to the Project Directory**
