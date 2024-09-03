@@ -54,9 +54,18 @@ The application features a user-friendly graphical interface (GUI) and utilizes 
 
 # 1.Advanced Sudoku Solver
 
-### Overview
+## Overview
 
-The **Advanced Sudoku Solver** is a comprehensive Java application designed to solve Sudoku puzzles with enhanced user interaction and customization features. It combines a powerful Sudoku-solving algorithm with a dynamic graphical user interface (GUI) that includes multiple color themes and interactive elements. This project demonstrates the integration of algorithms with user-centric design, providing both functionality and visual appeal.
+**Sudoku** is a popular logic-based number placement puzzle that challenges players to fill a 9x9 grid with digits from 1 to 9.
+The grid is divided into nine 3x3 subgrids, called regions or boxes.
+The puzzle starts with some cells pre-filled with numbers, and the objective is to complete the grid according to the following rules:
+
+1. **Each row** must contain all digits from 1 to 9 without repetition.
+2. **Each column** must contain all digits from 1 to 9 without repetition.
+3. **Each 3x3 subgrid** must also contain all digits from 1 to 9 without repetition.
+
+The puzzle is solved when all cells are filled correctly while adhering to these rules.
+
 
 ### Features
 
