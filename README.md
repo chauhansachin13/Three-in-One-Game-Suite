@@ -1,6 +1,6 @@
 
 ```markdown
-# Three-in-One Game Suite
+## Three-in-One Game Suite
 
 ## Overview
 
