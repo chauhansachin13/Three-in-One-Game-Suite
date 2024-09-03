@@ -261,6 +261,127 @@ The puzzle is solved using a recursive algorithm. Here’s how it works:
 7. **`adjustTimerSpeed` Method:**
    - Adjusts the animation speed based on the slider value.
 
+# 3.Tic-Tac-Toe Game
+
+## Overview
+
+The Tic-Tac-Toe game is a classic two-player game where players take turns to mark spaces on a 3x3 grid. The goal is to get three of your marks (either 'X' or 'O') in a row—either horizontally, vertically, or diagonally—before your opponent does. This project is a graphical implementation of Tic-Tac-Toe using Java Swing.
+
+## Features
+
+- **Graphical User Interface (GUI):** A visually appealing board with buttons for each cell.
+- **Player Turns:** Players alternate between 'X' and 'O'.
+- **Winning Detection:** Automatically detects and announces the winner.
+- **Draw Detection:** Detects if the game ends in a draw.
+- **Animation:** Brief animation effect when a player makes a move.
+- **Reset Functionality:** Resets the board after a win or draw.
+
+## How It Works
+
+### 1. **Initialization**
+
+When the game starts, a 3x3 grid of buttons is created to represent the board. Each button can be clicked to make a move. The application initializes with player 'X' starting the game.
+
+### 2. **User Interaction**
+
+- **Making a Move:** Clicking a button places the current player's mark ('X' or 'O') in that cell. The button is then animated to provide visual feedback.
+- **Switching Turns:** After a move, the current player switches to the other player.
+
+### 3. **Checking for a Winner**
+
+The game checks for a win or draw after each move:
+- **Win Condition:** A player wins if they have three of their marks in a row, either horizontally, vertically, or diagonally.
+- **Draw Condition:** If all cells are filled and no player has won, the game ends in a draw.
+
+### 4. **Animating Moves**
+
+When a move is made, the button is briefly highlighted with a color animation to indicate the action.
+
+### 5. **Resetting the Game**
+
+After a win or draw, a message is shown, and the board is reset for a new game.
+
+## Code Overview
+
+Here is a skeleton of the main components and methods in the `TicTacToe` class:
+
+```java
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.IOException;
+
+public class TicTacToe extends JFrame implements ActionListener {
+    private static final int SIZE = 3;
+    private JButton[][] buttons;
+    private char currentPlayer;
+    private JPanel boardPanel;
+
+    public TicTacToe() {
+        // Constructor to initialize the game
+    }
+
+    private void initializeBoard() {
+        // Initializes the 3x3 board with buttons
+    }
+
+    private void animateMove(JButton button) {
+        // Animates the button to provide visual feedback
+    }
+
+    private void updateButtonStyle(JButton button) {
+        // Updates the style of the button
+    }
+
+    private void makeMove(JButton button) {
+        // Handles the move and updates the game status
+    }
+
+    private boolean checkWin() {
+        // Checks if the current player has won
+        return false;
+    }
+
+    private boolean isBoardFull() {
+        // Checks if the board is full
+        return false;
+    }
+
+    private void resetBoard() {
+        // Resets the board for a new game
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // Handles button click events
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new TicTacToe());
+    }
+}
+```
+
+### Key Methods
+
+- **`initializeBoard()`**: Sets up the 3x3 grid with buttons.
+- **`animateMove(JButton button)`**: Provides visual feedback when a move is made.
+- **`updateButtonStyle(JButton button)`**: Styles the buttons for a clean appearance.
+- **`makeMove(JButton button)`**: Executes a move and checks for win or draw.
+- **`checkWin()`**: Determines if the current player has won.
+- **`isBoardFull()`**: Checks if the board is fully occupied.
+- **`resetBoard()`**: Resets the board for a new game.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to adjust the `README.md` as needed for your project!
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
