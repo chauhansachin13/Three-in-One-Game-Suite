@@ -1,4 +1,4 @@
-# Three-in-One-Game-Suite
+
 ```markdown
 # Three-in-One Game Suite
 
@@ -59,7 +59,9 @@ The application features a user-friendly graphical interface (GUI) and employs r
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Acknowledgements
 
+- Thanks to [YourName] for contributing to this project.
 ```
 
 Make sure to replace `https://github.com/yourusername/three-in-one-game-suite.git` with your actual repository URL, and adjust any other specifics according to your actual project setup.
