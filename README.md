@@ -177,9 +177,6 @@ class JTextFieldLimit extends javax.swing.text.PlainDocument {
 }
 ```
 
-### Screenshots
-
-
 
 ### Dependencies
 
