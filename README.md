@@ -2,11 +2,11 @@
 
 ## Overview
 
-The **Three-in-One Game Suite** is a Java application project developed entirely by me. It allows users to play three distinct games from a single launcher:
+The **Three-in-One Game Suite** is a Java application project that allows users to play three distinct games from a single launcher:
 
-- **Advanced Sudoku Solver**: Solve and visualize Sudoku puzzles.
-- **Tower of Hanoi Visualization**: Interactive and animated Tower of Hanoi puzzle.
-- **Tic Tac Toe**: A classic Tic Tac Toe game with visual feedback.
+- **Advanced Sudoku Solver**
+- **Tower of Hanoi Visualization**
+- **Tic Tac Toe**
 
 The application features a user-friendly graphical interface (GUI) and utilizes recursion and backtracking algorithms in the backend to power the games.
 
