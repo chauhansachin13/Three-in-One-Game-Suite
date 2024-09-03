@@ -1,5 +1,3 @@
-
-```markdown
 # Three-in-One Game Suite
 
 ## Overview
@@ -24,44 +22,3 @@ The application features a user-friendly graphical interface (GUI) and utilizes 
 
    ```bash
    git clone https://github.com/yourusername/three-in-one-game-suite.git
-   ```
-
-2. **Navigate to the Project Directory**
-
-   ```bash
-   cd three-in-one-game-suite
-   ```
-
-3. **Compile the Java Files**
-
-   ```bash
-   javac GameLauncherGUI.java SudokuSolverGUI.java TowerOfHanoiGUI.java TicTacToe.java
-   ```
-
-4. **Run the Game Launcher**
-
-   ```bash
-   java GameLauncherGUI
-   ```
-
-## Project Structure
-
-- `GameLauncherGUI.java`: Main launcher class that provides access to all three games.
-- `SudokuSolverGUI.java`: GUI for the Advanced Sudoku Solver.
-- `TowerOfHanoiGUI.java`: GUI for the Tower of Hanoi Visualization.
-- `TicTacToe.java`: GUI for the Tic Tac Toe game.
-
-## Dependencies
-
-- Java Development Kit (JDK) 8 or later
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Developed solo by [Your Name].
-```
-
-Feel free to adjust any details as needed!
