@@ -52,7 +52,7 @@ The application features a user-friendly graphical interface (GUI) and utilizes 
 - Certainly! Here’s a more detailed and descriptive `README.md` for the **Advanced Sudoku Solver** sub-project:
 
 
-## 1.Advanced Sudoku Solver
+# 1.Advanced Sudoku Solver
 
 ### Overview
 
