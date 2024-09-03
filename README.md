@@ -1,7 +1,7 @@
 # Three-in-One Game Suite
 ## Watch the Video
 
-[![Video Thumbnail](https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg)](https://youtu.be/fgp3KH3LsPs?si=f-bQvz6oYE-wYyyx)
+[![Video Thumbnail](https://img.youtube.com/vi/fgp3KH3LsPs/hqdefault.jpg)](https://youtu.be/fgp3KH3LsPs)
 
 
 ## Overview
