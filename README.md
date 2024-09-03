@@ -1,16 +1,16 @@
 
 ```markdown
-## Three-in-One Game Suite
+# Three-in-One Game Suite
 
 ## Overview
 
-The **Three-in-One Game Suite** is a Java application project that allows users to play three distinct games from a single launcher. The suite includes:
+The **Three-in-One Game Suite** is a Java application project developed entirely by me. It allows users to play three distinct games from a single launcher:
 
 - **Advanced Sudoku Solver**: Solve and visualize Sudoku puzzles.
 - **Tower of Hanoi Visualization**: Interactive and animated Tower of Hanoi puzzle.
 - **Tic Tac Toe**: A classic Tic Tac Toe game with visual feedback.
 
-The application features a user-friendly graphical interface (GUI) and employs recursion and backtracking algorithms in the backend to power the games.
+The application features a user-friendly graphical interface (GUI) and utilizes recursion and backtracking algorithms in the backend to power the games.
 
 ## Features
 
@@ -23,7 +23,7 @@ The application features a user-friendly graphical interface (GUI) and employs r
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/chauhansachin13/Three-in-One-Game-Suite.git
+   git clone https://github.com/yourusername/three-in-one-game-suite.git
    ```
 
 2. **Navigate to the Project Directory**
@@ -61,7 +61,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgements
 
-- Thanks to [YourName] for contributing to this project.
+- Developed solo by [Your Name].
 ```
 
-Make sure to replace `https://github.com/yourusername/three-in-one-game-suite.git` with your actual repository URL, and adjust any other specifics according to your actual project setup.
+Feel free to adjust any details as needed!
